@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/4.1/ref/settings/
 """
 import os
 from pathlib import Path
-import mailgun2
+
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -23,9 +23,6 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # SECURITY WARNING: keep the secret key used in production secret!
 SECRET_KEY = 'django-insecure-d6@0squ=#1j!ag8jk%lw33&2pfd=gf52g^(yx&*6-i89uojpii'
 
-#MAIL GUN API KEY
-MAILGUN_API_KEY = 'c9746cf8-9406527c'
-MAILGUN_SENDER_DOMAIN = 'sandbox5d0c966ef0d4485299706b5398b54de3.mailgun.org'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
